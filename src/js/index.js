@@ -24,20 +24,3 @@ import Home from "./component/home.jsx";
       ReactDOM.createRoot(document.getElementById('app')).render(<Home digit1={one} digit2={two} digit3={three} digit4={four} digit5={five} digit6={six}/>
       );
   },1000);
-
-
-// let numero=0;
-
-// setInterval(function(){
-//     numero++;
-//     console.log(numero);
-
-//     //render your react application
-// ReactDOM.createRoot(document.getElementById('app')).render(<Home digito1={numero}/>);
-
-// },1000);
-
-
-// //render your react application
-// ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
-

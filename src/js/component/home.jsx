@@ -1,8 +1,6 @@
 import React from "react";
 
 
-//include images into your bundle
-
 //create your first component
 const Home = ({ digit6, digit5, digit4, digit3, digit2, digit1 }) => {
 	return (
@@ -19,5 +17,4 @@ const Home = ({ digit6, digit5, digit4, digit3, digit2, digit1 }) => {
 		</div>	
 	);
 };
-
 export default Home;
